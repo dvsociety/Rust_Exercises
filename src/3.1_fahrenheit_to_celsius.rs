@@ -4,6 +4,5 @@ fn main() {
 }
 
 fn fahrenheit_to_celsius(fahrenheit_temperature: f32) -> f32 {
-    let celsius = (fahrenheit_temperature - 32.0) / 1.8;
-    celsius
+    (fahrenheit_temperature - 32.0) / 1.8
 }

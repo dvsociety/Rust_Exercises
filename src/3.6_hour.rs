@@ -11,7 +11,7 @@ fn time_to_seconds(hour: u64, minute: u64, second: u64) -> u64 {
 
 fn seconds_to_hour(seconds: u64) -> (u64, u64, u64) {
     let hour = seconds / 3600;
-    let minute = (seconds % 3600 ) / 60;
+    let minute = (seconds % 3600) / 60;
     let second = (seconds % 3600) % 60;
     // println!("{} {} {}",hour, minute, second);
     (hour, minute, second)
