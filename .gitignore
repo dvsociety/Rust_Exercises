@@ -1,4 +1,4 @@
 /target
-main.exe
-main.pdb
-main.rs
+src/main.exe
+src/main.pdb
+src/main.rs
